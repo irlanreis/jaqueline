@@ -3,8 +3,11 @@ import React, { Component } from 'react'
 class Header extends Component {
   render() {
     return (
-      <div>Header</div>
+      <header>
+        <h1>Jaqueline Reis Mar</h1>
+      </header>
     )
   }
 }
+
 export default Header;
