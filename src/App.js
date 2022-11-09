@@ -1,14 +1,17 @@
 import React, { Component } from 'react'
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, Switch } from 'react-router-dom';
 import Header from './components/Header';
 import Main from './components/Main';
+import '../src/imgs/perfil.png'
 
 class App extends Component {
   render() {
     return (
       <BrowserRouter>
-      <Header />
-      <Main />
+        <Switch>
+          <Header />
+        </Switch>
+          <Main />
       </BrowserRouter>
     )
   }
