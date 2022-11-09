@@ -9,7 +9,7 @@ class Main extends Component {
           Prazer sou Jaqueline Reis, <strong>Estrategista Digital</strong> & <strong> Social Media de Profissionais</strong>.
         </p>
         <p>
-          Meu objetivo é fazer você se destacar no meio digital eatravés de um posicionamento <strong>estratégico</strong> & <strong>intencional</strong> nas redes sociais.
+          Meu objetivo é fazer você se destacar no meio digital através de um posicionamento <strong>estratégico</strong> & <strong>intencional</strong> nas redes sociais.
         </p>
       </div>
       </>
