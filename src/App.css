@@ -1,20 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .container-header {
-    flex-flow: column;
     display: flex;
     justify-content: center;
     justify-content: space-around;
     align-items: center;
-    background: linear-gradient(to left, rgb(231, 0, 193), rgb(6, 245, 225))
-}
-
-img {
-    width: 400px;
-    border-radius: 50%;
-}
-
-h1 {
-    box-sizing: border-box;
-    font-family:sans-serif;
 }
 
 .container-main {
@@ -22,28 +15,103 @@ h1 {
     flex-flow: column;
     text-align: center;
     flex-basis: 2;
-    background-color: rgb(236, 6, 148);
+    background-color: rgba(209, 0, 129, 0.315);
     font-size: 20px;
-    color: white;
+    color: #dbd4c9;
 }
+
+
+.perfil-img {
+    width: 400px;
+    border-radius: 50%;
+    border: solid 2px #c28b23;
+}
+
+.container-img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.img-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    color:#efe8e7;
+    font-size: 60px;
+    font-family: sans-serif;
+    height: 360px;
+    width: 320px;
+}
+
+.text-h2 {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    color: #efe8e7;
+    font-family: serif;
+    width: 80vh;
+}
+
+.container-footer {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    height: 80px;
+    color: #efe8e7;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #9b2b50;
+}
+a {
+    text-decoration: none;
+    color:#efe8e7;
+    background-color: #c28b23;
+    font-weight: 700;
+    padding: 5px;
+}
+h1 {
+    box-sizing: border-box;
+    font-family: serif;
+    font-weight: 600;
+}
+span {
+    color: #c28b23
+}
+
 body {
-    background: linear-gradient(to left, rgb(85, 6, 30), rgb(199, 1, 123));
+    background: linear-gradient(to left, #b6335e, #b6335e);
 }
 
-@media screen and (max-width: 440px){
-img {
 
+
+@media screen and (max-width: 540px){
+* {
+font-size: 100%;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+img {
+    width: 40vh;
 }
 h1 {
     font-size: x-large;
 }
 body {
-
+    
 }
 .container-main {
 
 }
+:root {
+    scroll-behavior: smooth;
+    width: 615px;
+}
 .container-header {
+  flex-flow: column-reverse;
+  display:flex;
 
 }
 }
