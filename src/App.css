@@ -76,7 +76,7 @@ h1 {
     font-family: serif;
     font-weight: 700;
     text-align: center;
-    background: linear-gradient(to right, black, #dbd4c9, black);
+    background: linear-gradient(to right, black, #c28a23, black);
     background-clip: unset;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent
@@ -84,7 +84,7 @@ h1 {
 
 
 body {
-    background: linear-gradient(to left,#c28a23, #b6335e);
+    background: linear-gradient(to left, #b6335e, #b6335e);
 }
 
 
@@ -99,8 +99,8 @@ box-sizing: border-box;
 
 .img-main {
     border: springgreen solid;
-    width: 58vh;
-    height:600px;
+    width: 65vh;
+    height: 580px;
 }
 h1 {
     text-align: center;
