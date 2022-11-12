@@ -14,7 +14,7 @@ class Main extends Component {
         </div>
 
         <div className="container-header">
-        <h2 className="text-h2">Alguns trabalhos</h2>
+        <h2 className="text-h2">Alguns Trabalhos</h2>
         </div>
 
         <section className="container-img">
