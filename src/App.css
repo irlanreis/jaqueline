@@ -14,17 +14,19 @@
     display: flex;
     flex-flow: column;
     text-align: center;
-    flex-basis: 2;
-    background-color: rgba(209, 0, 129, 0.315);
+    border-radius: 8px;
+    padding: 8px ;
+    background-color:#9b2b50;
     font-size: 20px;
-    color: #dbd4c9;
+    color: white;
+    margin: 30px;
 }
 
 
 .perfil-img {
     width: 400px;
     border-radius: 50%;
-    border: solid 2px #c28b23;
+    border: solid 2px #efe8e7;
 }
 
 .container-img {
@@ -37,8 +39,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid white;
-    color:#efe8e7;
+    border: 1px solid #c28b23;
+    color:black;
     font-size: 60px;
     font-family: sans-serif;
     height: 360px;
@@ -62,11 +64,13 @@
     color: #efe8e7;
     font-family: 'Courier New', Courier, monospace;
     background-color: #9b2b50;
+    margin-top: 10px;
+    margin: 0 34px;
 }
 a {
     text-decoration: none;
     color:#efe8e7;
-    background-color: #c28b23;
+    background-color: #da9413;
     font-weight: 700;
     padding: 5px;
 }
@@ -84,7 +88,7 @@ h1 {
 
 
 body {
-    background: linear-gradient(to left, #b6335e, #b6335e);
+    background: linear-gradient(to left,  #f0dbba,  #dbd4c9);
 }
 
 
