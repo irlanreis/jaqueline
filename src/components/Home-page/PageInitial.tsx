@@ -2,10 +2,10 @@ import jaqueApresentacao from '../../assets/images/landing-page/jaqueApresentaca
 
 function PageInitial() {
   return (
-    <main className="bg-marrondarck p-4">
+    <main className="bg-marrondarck p-4 overflow-x-hidden">
       <div className="flex flex-col items-center mt-5
       md:flex-row md:justify-around">
-        <div className='relative max-w-xs sm:max-w-sm md:max-w-md md:w-1/2'>
+        <div className='relative xs:max-w-xs sm:max-w-sm md:max-w-md md:w-1/2'>
           <img
             src={jaqueApresentacao}
             alt="Jaqueline perfil"
