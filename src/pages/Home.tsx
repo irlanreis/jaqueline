@@ -1,7 +1,7 @@
 import Destaques from "../components/Home-page/Destaques";
-import Footer from "../components/Home-page/Footer";
 import Header from "../components/Home-page/Header";
 import PageInitial from "../components/Home-page/PageInitial";
+import SectionGrid from "../components/Home-page/SectionGrid";
 
 function Home() {
   return (
@@ -9,7 +9,7 @@ function Home() {
       <Header />
       <PageInitial />
       <Destaques />
-      <Footer />
+      <SectionGrid />
     </>
   )
 }

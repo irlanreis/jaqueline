@@ -30,11 +30,11 @@ const Initial = () => {
         className="flex flex-col justify-end h-full w-full absolute"
       >
         <div
-          className="flex flex-col items-center justify-evenly
+          className="flex flex-col items-center 
           mbl:h-3/5
           sm:h-3/5 sm:justify-end sm:mb-4
           md:h-1/2 md:justify- space-y-0
-          lg:h-4/5 lg:w-1/2 lg:place-items-center lg:justify-evenly"
+          lg:h-4/5 lg:w-1/2 lg:place-items-center"
         >
           <h1
             className="text-bejeLigth text-center font-SpectralRegular

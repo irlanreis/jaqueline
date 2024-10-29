@@ -20,20 +20,21 @@ function SectionGrid() {
   ]
 
   return (
-    <div className="flex items-center justify-around pb-20">
-      <div className="grid grid-cols-4 gap-3 w-1/2 h-1/2 mt-16 ml-14">
+    <div className="">
+      {/* Grid de designs criados */}
+      <div className="grid lt:grid-cols-2 mbl:grid-cols-3 sm:grid-cols-4 w-3/4">
         {
           images.map((image: string, index: number) => (
             <img
               key={index}
               src={image}
               alt={`work-${index}`}
-              className="w-full h-auto object-cover transition-transform transform hover:scale-105 "
+              className="w-full h-auto transition-transform transform hover:scale-105 "
             />
           ))
         }
       </div>
-      <div className="flex flex-col items-center">
+      <div className="flex flex-col items-center w-1/4">
         <p className="2xl:text-6xl w-82 text-amber-500">+400</p>
         <p className="text-amber-500 w-96 text-center font-light 2xl:text-4xl">Designs e Conteúdos Estratégicos Entregues</p>
       </div>
