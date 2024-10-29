@@ -29,7 +29,7 @@ function Header() {
                 navLinks.map((link, i) => (
                   <a
                     key={i}
-                    className="text-bejeAbobora hover:bg-marrondarck hover:text-beje px-3 py-2 rounded-md text-sm font-medium"
+                    className="text-bejeAbobora hover:bg-marrondarck hover:text-beje px-3 py-2 rounded-md text-sm font-medium text-center"
                     href={link.link} >
                     {link.title}
                   </a>

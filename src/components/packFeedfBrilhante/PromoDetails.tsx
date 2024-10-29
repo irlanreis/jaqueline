@@ -26,15 +26,15 @@ const PromoDetails = () => {
       </div>
 
       <div className="bg-opacity-80 p-4 max-w-4xl h-96 text-center text-xl font-MontserratRegular flex flex-col justify-evenly">
-        <h2 className="text-5xl font-bold text-bejeAbobora text-center">Prazer, sou Jaqueline Reis!</h2>
-        <p className="text-bejeLigth text-2xl font-MontserratRegular text-justify font-semibold">
+        <h2 className="text-5xl font-bold text-bejeAbobora text-center mbl:text-2xl">Prazer, sou Jaqueline Reis!</h2>
+        <p className="text-bejeLigth text-2xl font-MontserratRegular text-justify font-semibold mbl:text-lg lt:text-sm">
           Social media estrategista, mentora e designer especialista em feeds minimalistas e elegantes.
           Já transformei o posicionamento digital de +100 empresárias em 2 países através da criação de conteúdo estratégico + design que atrai e vende.
           Tenho certeza que o seu posicionamento será o próximo a ser transformado, dê o primeiro passo e adquira agora mesmo o seu Pack Feed Brilhante.
         </p>
       </div>
       <br />
-      <img src={jaqueApresentacao} className='border'/>
+      <img src={jaqueApresentacao} className='border w-2/3 max-h-full lt:w-80 object-cover'/>
       <Footer/>
     </div>
   );
