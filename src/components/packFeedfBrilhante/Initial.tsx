@@ -31,10 +31,12 @@ const Initial = () => {
       >
         <div
           className="flex flex-col items-center 
-          mbl:h-3/5
+          mbl:h-1/2 mbl:justify-between mbl:mb-4
           sm:h-3/5 sm:justify-end sm:mb-4
-          md:h-1/2 md:justify- space-y-0
-          lg:h-4/5 lg:w-1/2 lg:place-items-center"
+          md:h-1/2 md:justify-between space-y-0
+          lg:h-4/5 lg:w-1/2 lg:place-items-center 
+          xl:h-4/5 xl:w-4/6 xl:place-items-center xl:justify-evenly xl:space-y-0
+          "
         >
           <h1
             className="text-bejeLigth text-center font-SpectralRegular
@@ -51,7 +53,7 @@ const Initial = () => {
             mbl:w-full mbl:text-2xl mbl:px-2
             sm:max-w-2xl sm:text-2xl sm:mt-0 sm:p-8 sm:w-full
             md:text-2xl md:w-full md:relative md:text-center md:max-w-2xl md:rounded-xl md:bg-marronLight md:p-4 md:bg-opacity-40
-            lg:bg-transparent lg:text-4xl lg:w-2/3 lg:font-thin"
+            lg:bg-transparent lg:text-4xl lg:w- lg:font-thin"
           >
             Transforme o seu feed e atraia mais clientes com modelos de posts
             elegantes e minimalistas
@@ -62,7 +64,7 @@ const Initial = () => {
           mbl:w-full mbl:h-auto mbl:px-2 mbl:text-center font-MontserratRegular 
           sm:text-center sm:max-w-lg sm:text-base sm:p-6
           md:text-xl md:text-center md:w-full md:max-w-2xl
-          lg:text-xl lg:w-2/3"
+          lg:text-xl lg:w-full"
           >
             <strong className="text-beje text-xl  font-extrabold">
               +100 modelos de posts 100% editáveis
