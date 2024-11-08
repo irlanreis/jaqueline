@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.text-header {
+  font-size: max(0.8rem, 1.6vw);
+  color: #fff;
+  text-align: center;
+  width: 68%;
+  line-height: 1.2;
+  font-style: italic;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+
+.profile-picture {
+  max-width: 280px;
+  min-width: 230px;
+  height: 120px;
+  object-fit: cover;
+  margin-top: 20px;
+}
+
+.name-title {
+  font-family: "Imbue", serif;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size: max(4vw, 2.8rem);
+  color: #fff;
+  margin-top: 10px;
+  padding: 0 0 10px 0;
+  font-weight: normal;
+}
+
+.access-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background-color: black;
+  padding: 20px;
+  width: 100%;
+}
+
+.link:nth-child(1) {
+  background-image: url('./imgs/1.png');
+}
+.link:nth-child(2) {
+  background-image: url('./imgs/2.png');
+}
+.link:nth-child(3) {
+  background-image: url('./imgs/3.png');
+}
+.link:nth-child(4) {
+  background-image: url('./imgs/4.png');
+}
+.link:nth-child(5) {
+  background-image: url('./imgs/5.png');
+}
+
+.link {
+  background-size: cover;
+  background-position: center;
+  width: 70dvh;
+  height: 24dvh;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+
+.link:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+@media (min-width: 280px) and (max-width: 568px) {
+  .profile-picture {
+    width: 30%;
+    max-width: 320px;
+    min-width: 280px;
+  }
+
+  .name-title {
+    font-size: 2.8rem;
+  }
+
+  .link {
+    width: 48vh;
+    height: 18vh;
+  }
+}
+
+@media (min-width: 569px) and (max-width: 768px) {
+  .profile-picture {
+    width: 30%;
+    max-width: 280px;
+    min-width: 230px;
+  }
+
+  .name-title {
+    font-size: 2.8rem;
+  }
+
+  .link {
+    width: 50vh;
+    height: 18vh;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .profile-picture {
+    width: 30%;
+    max-width: 280px;
+    min-width: 230px;
+  }
+
+  .name-title {
+    font-size: 2.8rem;
+  }
+
+  .link {
+    width: 60vh;
+    height: 21vh;
+  }
+}
+
+@media (min-width: 1025px) {
+  .profile-picture {
+    width: 30%;
+    max-width: 280px;
+    min-width: 230px;
+  }
+
+  .name-title {
+    font-size: 2.8rem;
+  }
+
+  .link {
+    width: 70vh;
+    height: 24vh;
+  }
+}
+
