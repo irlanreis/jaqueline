@@ -93,14 +93,14 @@ function Destaques() {
         </div>
       </div>
 
-      <div className="flex justify-evenly p-6 text-bejeAbobora font-semibold">
-        <div className="text-center mbl:text-2xl">
+      <div className="flex sm:flex-row justify-center p-6 text-bejeAbobora font-semibold w-full sm:w-4/5 mx-auto lg:justify-evenly">
+        <div className="text-center flex-col mbl:text-2xl mb-4 sm:mb-0 flex justify-center items-center ">
           <p className="text-4xl font-semibold">+100</p>
-          <h1 className="w-96 text-xl">Clientes em mais de três países</h1>
+          <h1 className="text-xl w-10/12 lg:w-full ">Clientes em mais de três países</h1>
         </div>
-        <div className="text-center">
-          <p className="text-4xl font-semibold">+40</p>
-          <h1 className="w-96 text-xl">Nichos atendidos</h1>
+        <div className="text-center mbl:text-2xl">
+          <p className="text-4xl font-semibold">+200</p>
+          <h1 className="text-xl">Projetos concluídos</h1>
         </div>
       </div>
     </div>
