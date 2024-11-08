@@ -31,7 +31,7 @@ const Links: React.FC = () => {
       <div className="profile">
         <img src={perfil} alt="Reis Marketing" className="profile-picture" />
         <p className="text-header">
-        Estratégias de posicionamento autêntico, humanizado que vende no digital!
+        Estratégias de posicionamento autêntico e humanizado que vende no digital.
         </p>
       </div>
 
