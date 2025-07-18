@@ -1,17 +1,15 @@
 const PromoCard = () => {
   return (
-    <div className="h-70vh flex items-center justify-center bg-pricePack">
-      <div className="relative bg-bejeLigth bg-opacity-70 p-6 rounded-lg shadow-lg
-      lg:h-4/5 lg:w-3/6">
-        <div className="text-center font-MontserratRegular
-        lg:w-full lg:h-full lg:ml-auto lg:mr-auto flex flex-col justify-around">
-          <section>
-            <p className="text-gray-500 text-center text-2xl line-through">De: R$ 97,00</p>
-            <p className="text-4xl font-bold text-green-600 mt-2">R$ 57,00</p>
-            <p className="text-sm text-gray-500 mt-1">ou 8x de 5,57</p>
+    <div className="w-full rounded-lg overflow-hidden">
+      <div className="bg-bejeLigth bg-opacity-80 p-4 sm:p-6 md:p-8 rounded-lg shadow-lg">
+        <div className="font-MontserratRegular flex flex-col justify-between gap-4 sm:gap-6 md:gap-8">
+          <section className="text-center">
+            <p className="text-gray-500 text-xl sm:text-2xl line-through">De: R$ 97,00</p>
+            <p className="text-3xl sm:text-4xl md:text-5xl font-bold text-green-600 mt-1 sm:mt-2">R$ 57,00</p>
+            <p className="text-xs sm:text-sm text-gray-500 mt-1">ou 8x de 5,57</p>
           </section>
-          <div className="mt-4 text-left text-marronLight text-lg ml-auto mr-auto">
-            <ul className="list-disc pl-6 font-semibold space-y-5">
+          <div className="mt-2 text-left text-marronLight">
+            <ul className="list-disc pl-6 font-semibold space-y-3 sm:space-y-4 text-base sm:text-lg">
               <li>100 Carrosséis com Scripts que vendem</li>
               <li>50 Posts para Feed com Scripts que engajam</li>
               <li>2 Bônus Exclusivos</li>
@@ -19,10 +17,10 @@ const PromoCard = () => {
               <li>Grupo de Suporte VIP</li>
             </ul>
           </div>
-          <a href="https://pay.kiwify.com.br/1Tag7Ep" target="_blank">
+          <a href="https://pay.kiwify.com.br/1Tag7Ep" target="_blank" className="mt-4 w-full">
             <button
-              className="
-            mbl:w-72 p-3 text-lg font-semibold bg-green-600  font-MontserratRegular rounded-lg text-bejeLigth hover:bg-green-500 shadow-xl"
+              className="w-full p-3 sm:p-4 text-base sm:text-lg font-semibold bg-green-600 font-MontserratRegular 
+              rounded-lg text-bejeLigth hover:bg-green-500 shadow-xl transition-all duration-300"
             >
               QUERO ACESSAR AGORA
             </button>
