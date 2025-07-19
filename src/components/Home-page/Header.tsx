@@ -14,25 +14,25 @@ function Header() {
 
 
   return (
-    <div className="bg-marrondarck">
+    <div className="bg-marrondarck fixed top-0 left-0 w-full z-50 shadow-lg">
       <div className="mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
-            <a href="/" className="text-white">
+            <Link to="/" className="text-white">
               <img src={logo} alt="logo Jakeline Reis" />
-            </a>
+            </Link>
           </div>
           {/*navLinks*/}
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-4">
               {
                 navLinks.map((link, i) => (
-                  <a
+                  <Link
                     key={i}
                     className="text-bejeAbobora hover:bg-marrondarck hover:text-beje px-3 py-2 rounded-md text-sm font-medium text-center"
-                    href={link.link} >
+                    to={link.link} >
                     {link.title}
-                  </a>
+                  </Link>
                 ))
               }
             </div>

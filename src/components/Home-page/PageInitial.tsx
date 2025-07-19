@@ -2,14 +2,14 @@ import jaqueApresentacao from '../../assets/images/landing-page/jaqueApresentaca
 
 function PageInitial() {
   return (
-    <main className="bg-marrondarck p-4 overflow-x-hidden">
+    <main className="bg-marrondarck p-4 pb-0 overflow-x-hidden">
       <div className="flex flex-col items-center mt-5
       md:flex-row md:justify-around">
-        <div className='relative xs:max-w-xs sm:max-w-sm md:max-w-md md:w-1/2'>
+        <div className='relative xs:max-w-xs sm:max-w-sm md:max-w-md md:w-1/2 xl:max-w-xl xl:w-1/2'>
           <img
             src={jaqueApresentacao}
             alt="Jaqueline perfil"
-            className="w-full"
+            className="w-full max-w-xs sm:max-w-sm md:max-w-md xl:max-w-xl rounded-lg shadow-lg object-contain h-auto"
           />
           <span
             className="
@@ -18,6 +18,7 @@ function PageInitial() {
               bg-gradient-to-b 
               from-transparent 
               to-marrondarck
+              pointer-events-none
               "
           ></span>
         </div>

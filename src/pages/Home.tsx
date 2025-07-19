@@ -1,23 +1,20 @@
 import Destaques from "../components/Home-page/Destaques";
 import Feedbacks from "../components/Home-page/Feedbacks";
 import Header from "../components/Home-page/Header";
-import PageInitial from "../components/Home-page/PageInitial";
+import HeroSection from "../components/Home-page/HeroSection";
 import SectionGrid from "../components/Home-page/SectionGrid";
+import TitleDinamic from "../components/Home-page/TitleDinamic";
 import Footer from "../components/packFeedfBrilhante/Footer";
-import { Helmet } from "react-helmet-async";
 
 function Home() {
   return (
     <>
-      <Helmet>
-        <title>Jaqueline Reis | Marketing Digital</title>
-        <meta
-          name="description"
-          content="Jaqueline Reis - Especialista em Marketing Digital e Estratégias de Conteúdo para Empreendedoras."
-        />
-      </Helmet>
+      <TitleDinamic
+        title="Jaqueline Reis | Marketing Digital"
+        description="Jaqueline Reis - Especialista em Marketing Digital e Estratégias de Conteúdo para Empreendedoras."
+      />
       <Header />
-      <PageInitial />
+      <HeroSection />
       <Destaques />
       <SectionGrid />
       <Feedbacks />
