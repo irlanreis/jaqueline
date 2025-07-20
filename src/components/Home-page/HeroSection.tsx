@@ -2,14 +2,14 @@ import jaqueApresentacao from '../../assets/images/landing-page/jaqueApresentaca
 
 function HeroSection() {
   return (
-    <main className="bg-marrondarck p-4 pb-0 overflow-x-hidden">
-      <div className="flex flex-col items-center mt-5
-      md:flex-row md:justify-around">
+    <main className="bg-marrondarck p-4 pb-0 overflow-y-hidden h-screen">
+      <div className="flex flex-col items-center mt-20
+      md:flex-row md:justify-around overflow-hidden">
         <div className='relative xs:max-w-xs sm:max-w-sm md:max-w-md md:w-1/2 xl:max-w-xl xl:w-1/2'>
           <img
             src={jaqueApresentacao}
             alt="Jaqueline perfil"
-            className="w-full max-w-xs sm:max-w-sm md:max-w-md xl:max-w-xl object-contain h-auto"
+            className="w-full max-w-xs sm:max-w-sm md:max-w-md xl:max-w-xl object-contain h-auto max-h-[800px] " loading="lazy"
           />
           <span
             className="
