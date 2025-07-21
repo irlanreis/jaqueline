@@ -19,7 +19,7 @@ function Header() {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <Link to="/" className="text-white">
-              <img src={logo} alt="logo Jakeline Reis" />
+              <img src={logo} alt="logo Jakeline Reis" className='h-12 w-auto hover:scale-105 transition-transform duration-300 relative' />
             </Link>
           </div>
           {/*navLinks*/}

@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Header from "../components/Home-page/Header";
-import Footer from "../components/Home-page/Footer";
 import TitleDinamic from "../components/Home-page/TitleDinamic";
 import {
   HeroSection,
@@ -285,8 +284,6 @@ const Portfolio: React.FC = () => {
         {/* Call to Action */}
         <CallToAction image={j4} />
       </main>
-
-      <Footer />
     </>
   );
 };

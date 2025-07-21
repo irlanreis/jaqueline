@@ -25,12 +25,12 @@ export default {
 
       backgroundImage: {
         'offWhite': "url('/src/assets/images/background.svg')",
-        'jaqueSorriso': "url('/src/assets/images/background-mobile.svg')",
+        'jaqueSorriso': "url('/src/assets/images/background-mobile.webp')",
         'pricePack': "url('/src/assets/images/landing-page/10.png')",
-        'lg-bg-start': "url('/src/assets/images/landing-page/lg-bg-start.jpg')",
-        'lg-bg-mid': "url('/src/assets/images/landing-page/lg-bg-mid.jpg')",
-        'lg-bg-end': "url('/src/assets/images/landing-page/lg-bg-end.jpg')",
-        'lg-bg-clean': "url('/src/assets/images/landing-page/lg-bg-clean.jpg')",
+        'lg-bg-start': "url('/src/assets/images/landing-page/lg-bg-start.webp')",
+        'lg-bg-mid': "url('/src/assets/images/landing-page/lg-bg-mid.webp')",
+        'lg-bg-end': "url('/src/assets/images/landing-page/lg-bg-end.webp')",
+        'lg-bg-clean': "url('/src/assets/images/landing-page/lg-bg-clean.webp')",
       },
 
       colors: {

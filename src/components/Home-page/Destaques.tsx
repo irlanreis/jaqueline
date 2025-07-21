@@ -4,7 +4,7 @@ import "slick-carousel/slick/slick-theme.css";
 // import SectionGrid from "./SectionGrid";
 import images from "../../constants/globalImgs";
 // import Feedbacks from "./Feedbacks";
-import servicos from "../../constants/servicosReisMarkketin";
+// import servicos from "../../constants/servicosReisMarkketin";
 
 function Destaques() {
   const settings = {
@@ -69,10 +69,10 @@ function Destaques() {
         ))}
       </Slider>
 
-      <h2 className="text-marronLight p-6 text-5xl font-light text-center m-4">
+      {/* <h2 className="text-marronLight p-6 text-5xl font-light text-center m-4">
         Serviços
       </h2>
-    {/* Card dos Serviços */}
+    {/* Card dos Serviços 
       <div className=" flex justify-center">
         <div className="grid gap-2 h-full lt:grid-cols-1 mbl:grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:max-w-5xl m-2">
           {servicos.map((servico, key) => (
@@ -91,7 +91,7 @@ function Destaques() {
             </div>
           ))}
         </div>
-      </div>
+      </div> */}
 
       <div className="flex sm:flex-row justify-center p-6 text-bejeAbobora font-semibold w-full sm:w-4/5 mx-auto lg:justify-evenly">
         <div className="text-center flex-col mbl:text-2xl mb-4 sm:mb-0 flex justify-center items-center ">

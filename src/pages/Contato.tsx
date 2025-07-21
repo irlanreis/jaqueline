@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Header from "../components/Home-page/Header";
-import Footer from "../components/Home-page/Footer";
 import { Mail, Phone, MapPin, ChevronDown } from "lucide-react";
 import { FaFacebook, FaInstagram } from "react-icons/fa";
 import TitleDinamic from "../components/Home-page/TitleDinamic";
@@ -391,8 +390,6 @@ const Contato: React.FC = () => {
           </div>
         </section>
       </main>
-
-      <Footer />
     </>
   );
 };
