@@ -21,7 +21,7 @@ import j4 from "../assets/images/portifolio-imgs/j4.webp";
 import j5 from "../assets/images/portifolio-imgs/j5.webp";
 import j7 from "../assets/images/portifolio-imgs/j7.webp";
 import j9 from "../assets/images/portifolio-imgs/j9.webp";
-import j11 from "../assets/images/portifolio-imgs/j11.webp";
+import sobre2 from "../assets/images/sobre/sobre-2.webp";
 import p1 from "../assets/images/portifolio-imgs/p1.webp";
 import p2 from "../assets/images/portifolio-imgs/p2.webp";
 import p3 from "../assets/images/portifolio-imgs/p3.webp";
@@ -169,7 +169,7 @@ const Portfolio: React.FC = () => {
 
       <main className="pt-16 bg-gradient-to-b from-beje to-bejeClaro min-h-screen">
         {/* Hero Section */}
-        <HeroSection profileImage={j11} />
+        <HeroSection profileImage={sobre2} />
 
         {/* Intro Section with Image Slider */}
         <section className="max-w-7xl mx-auto py-12 sm:py-16 md:py-20 px-4 sm:px-6 lg:px-8">

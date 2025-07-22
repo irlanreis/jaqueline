@@ -52,7 +52,7 @@ function Header() {
       </div>
       {/* Menu Mobile */}
       {isOpen ? (
-        <div className="fixed inset-0 z-50 bg-marrondarck bg-opacity-90 flex flex-col items-center justify-center">
+        <div className="fixed inset-0 z-50 bg-marrondarck bg-opacity-95 flex flex-col items-center justify-center">
           {/* Botão para fechar o menu */}
           <button
             type="button"
@@ -66,7 +66,7 @@ function Header() {
             <Link
               key={link.title}
               to={link.link}
-              className="text-bejeAbobora hover:bg-marronLight hover:text-beje rounded-md block px-3 py-2 text-base font-medium"
+              className="text-beje hover:bg-marronLight hover:text-beje rounded-md block px-3 py-2 w-1/2 text-center mb-4 text-base font-medium bg-marronLight"
               onClick={() => setIsOpen(false)} // Opcional: fecha o menu ao clicar em um item
             >
               {link.title}
