@@ -25,13 +25,13 @@ const BackToTop = () => {
 
   return (
     <button
-      className={`fixed right-6 bottom-6 p-3 rounded-full bg-bejeAbobora shadow-lg text-white hover:bg-bejeAbobora/90 transition-all duration-300 z-40 ${
+      className={`fixed right-4 bottom-6 p-3 sm:p-4 rounded-full bg-bejeAbobora shadow-lg text-white hover:bg-bejeAbobora/90 transition-all duration-300 z-40 ${
         isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10 pointer-events-none'
       }`}
       onClick={scrollToTop}
       aria-label="Voltar ao topo da página"
     >
-      <ArrowUp size={20} />
+      <ArrowUp size={24} />
     </button>
   );
 };
