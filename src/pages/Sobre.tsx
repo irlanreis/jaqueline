@@ -6,6 +6,7 @@ import sobre1 from "../assets/images/sobre/sobre-compartilhando-conhecimento.jpg
 import sobre5 from "../assets/images/sobre/sobre-5.png";
 import sobre3 from "../assets/images/sobre/sobre-reuniao-estrategica.jpg";
 import sobre4 from "../assets/images/sobre/sobre-4.webp";
+import { Link } from "react-router-dom";
 
 function Sobre() {
   const differentiators = [
@@ -285,8 +286,8 @@ function Sobre() {
                   Entre em Contato
                 </button>
               </a>
-              <a 
-                href="/portfolio" 
+              <Link 
+                to="/portfolio" 
                 className="inline-block"
               >
                 <button
@@ -297,7 +298,7 @@ function Sobre() {
                 >
                   Veja Meu Portfólio
                 </button>
-              </a>
+              </Link>
             </div>
           </div>
         </section>
