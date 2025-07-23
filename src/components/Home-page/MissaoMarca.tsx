@@ -44,7 +44,7 @@ function MissaoMarca() {
                   className="w-full h-full object-cover"
                 />
               </div>
-              <div className="h-36 xs:h-44 sm:h-56 md:h-64 lg:h-80 xl:h-96">
+              <div className="h-36 xs:h-64 sm:h-56 md:h-64 lg:h-80 xl:h-96">
                 <img 
                   src={sobre4} 
                   alt="Trabalhando em estratégias" 
