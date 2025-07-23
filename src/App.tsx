@@ -6,9 +6,13 @@ import { HelmetProvider } from "react-helmet-async";
 import Sobre from "./pages/Sobre";
 import Portfolio from "./pages/Portfolio";
 import Contato from "./pages/Contato";
-
+import { useScrollToTop } from "./hooks/useScrollToTop";
+import BackToTop from "./components/common/BackToTop";
 
 function App() {
+  // Hook para fazer scroll para o topo em cada mudança de rota
+  useScrollToTop();
+  
   return (
     <HelmetProvider>
       <Routes>
@@ -19,6 +23,9 @@ function App() {
         <Route path="/portfolio" element={ <Portfolio/> } />
         <Route path="/contato" element={ <Contato/> } />
       </Routes>
+      
+      {/* Botão de voltar ao topo */}
+      <BackToTop />
     </HelmetProvider>
   );
 }

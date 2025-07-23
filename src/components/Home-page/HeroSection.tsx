@@ -1,4 +1,5 @@
 import jaqueApresentacao from '../../assets/images/jaque.webp'
+import { scrollToTop } from '../../hooks/useScrollToTop';
 
 function HeroSection() {
   return (
@@ -39,6 +40,7 @@ function HeroSection() {
               <a
                 href="/sobre"
                 className="relative inline-block font-MontserratRegular text-marrondarck text-xs xs:text-sm sm:text-base md:text-lg group"
+                onClick={scrollToTop}
               >
                 <span className="relative z-10 pr-2 transition-colors duration-300 group-hover:text-bejeAbobora">Conheça minha história</span>
                 <span className="inline-block w-5 xs:w-6 h-px bg-bejeAbobora transform translate-y-[-2px] xs:translate-y-[-3px] transition-all duration-300 group-hover:w-7 xs:group-hover:w-8"></span>

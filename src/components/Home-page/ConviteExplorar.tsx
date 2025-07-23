@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { scrollToTop } from "../../hooks/useScrollToTop";
 
 function ConviteExplorar() {
   return (
@@ -22,12 +23,14 @@ function ConviteExplorar() {
             <Link
               to="/sobre"
               className="px-4 sm:px-6 py-2 sm:py-3 bg-white border border-bejeAbobora rounded-lg text-bejeAbobora hover:bg-bejeAbobora/5 transition-colors font-MontserratRegular text-xs xs:text-sm sm:text-base"
+              onClick={scrollToTop}
             >
               Minha História
             </Link>
             <Link
               to="/portfolio"
               className="px-4 sm:px-6 py-2 sm:py-3 bg-white border border-bejeAbobora rounded-lg text-bejeAbobora hover:bg-bejeAbobora/5 transition-colors font-MontserratRegular text-xs xs:text-sm sm:text-base"
+              onClick={scrollToTop}
             >
               Portfólio
             </Link>

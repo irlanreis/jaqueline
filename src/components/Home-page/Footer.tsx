@@ -1,6 +1,7 @@
 import { Mail } from 'lucide-react';
 import { FaFacebook, FaInstagram } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
+import { scrollToTop } from '../../hooks/useScrollToTop';
 
 function Footer() {
   const currentYear = new Date().getFullYear();
@@ -46,6 +47,7 @@ function Footer() {
                   <Link
                     to="/"
                     className="text-marronLight/80 hover:text-bejeAbobora transition-colors duration-300 font-MontserratRegular text-sm font-semibold"
+                    onClick={scrollToTop}
                   >
                     Página Inicial
                   </Link>
@@ -54,6 +56,7 @@ function Footer() {
                   <Link
                     to="/sobre"
                     className="text-marronLight/80 hover:text-bejeAbobora transition-colors duration-300 font-MontserratRegular text-sm font-semibold"
+                    onClick={scrollToTop}
                   >
                     Sobre Mim
                   </Link>
@@ -62,6 +65,7 @@ function Footer() {
                   <Link
                     to="/servicos" 
                     className="text-marronLight/80 hover:text-bejeAbobora transition-colors duration-300 font-MontserratRegular text-sm font-semibold"
+                    onClick={scrollToTop}
                   >
                     Portfólio
                   </Link>

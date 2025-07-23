@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import navLinks from '../../constants/navLinks';
 import { Link } from 'react-router-dom';
+import { scrollToTop } from '../../hooks/useScrollToTop';
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -32,7 +33,7 @@ function Header() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 sm:h-18">
           <div className="flex items-center">
-            <Link to="/" className="text-white">
+            <Link to="/" className="text-white" onClick={scrollToTop}>
               <img src={logo} alt="logo Jaqueline Reis" className='h-10 sm:h-12 w-auto hover:scale-105 transition-transform duration-300 relative' />
             </Link>
           </div>
@@ -44,7 +45,8 @@ function Header() {
                   <Link
                     key={i}
                     className="text-bejeAbobora hover:text-bejeLigth transition-colors duration-300 px-3 py-2 text-sm font-MontserratRegular font-medium text-center"
-                    to={link.link} >
+                    to={link.link}
+                    onClick={scrollToTop} >
                     {link.title}
                   </Link>
                 ))
@@ -88,7 +90,10 @@ function Header() {
                 key={link.title}
                 to={link.link}
                 className="text-bejeLigth hover:text-bejeAbobora transition-colors duration-300 py-2 w-48 sm:w-56 text-center text-lg font-MontserratRegular border-b border-bejeAbobora/20"
-                onClick={() => setIsOpen(false)}
+                onClick={() => {
+                  setIsOpen(false);
+                  scrollToTop();
+                }}
               >
                 {link.title}
               </Link>
