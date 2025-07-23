@@ -1,0 +1,45 @@
+/* Estilos para o Slider do Portfolio */
+.custom-dots {
+  bottom: -25px !important;
+  text-align: center;
+  padding: 5px 0;
+}
+
+.custom-dots li {
+  display: inline-block !important;
+  margin: 4px !important;
+}
+
+.custom-dots li button {
+  font-size: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  padding: 3px;
+}
+
+.slick-slider {
+  margin-bottom: 30px;
+}
+
+/* Estilos para efeitos de transição de texto */
+.text-fade-in {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+/* Estilos para dispositivos móveis */
+@media (max-width: 640px) {
+  .custom-dots {
+    bottom: -30px !important;
+  }
+  
+  .slick-slider {
+    margin-bottom: 25px;
+  }
+  
+  /* Reduz o espaço entre o texto e o slider em dispositivos móveis */
+  .slider-container {
+    padding-top: 0 !important;
+  }
+}

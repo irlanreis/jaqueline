@@ -21,6 +21,7 @@ import j4 from "../assets/images/portifolio-imgs/j4.webp";
 import j5 from "../assets/images/portifolio-imgs/j5.webp";
 import j11 from "../assets/images/portifolio-imgs/j11.webp";
 import j9 from "../assets/images/portifolio-imgs/j9.webp";
+import j12 from "../assets/images/portifolio-imgs/j12.webp";
 import sobre2 from "../assets/images/sobre/sobre-2.webp";
 import p1 from "../assets/images/portifolio-imgs/p1.webp";
 import p2 from "../assets/images/portifolio-imgs/p2.webp";
@@ -30,6 +31,7 @@ import p5 from "../assets/images/portifolio-imgs/p5.webp";
 import p6 from "../assets/images/portifolio-imgs/p6.webp";
 import p8 from "../assets/images/portifolio-imgs/p8.webp";
 import p10 from "../assets/images/portifolio-imgs/p10.webp";
+import Footer from "../components/Home-page/Footer";
 
 // Estilos personalizados para o slider
 const sliderStyles = `
@@ -179,7 +181,7 @@ const Portfolio: React.FC = () => {
         {/* Portfolio Highlights */}
         <section className="bg-marrondarck py-20 px-4">
           <div className="max-w-7xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-spectral text-bejeAbobora mb-12 text-center">
+            <h2 className="text-3xl md:text-4xl font-spectral text-bejeAbobora mb-6 text-center">
               Destaques do Portfólio
             </h2>
             
@@ -282,8 +284,10 @@ const Portfolio: React.FC = () => {
         />
 
         {/* Call to Action */}
-        <CallToAction image={j4} />
+        <CallToAction image={j12} />
       </main>
+
+      <Footer/>
     </>
   );
 };

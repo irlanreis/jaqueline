@@ -45,7 +45,7 @@ function Footer() {
                 <li>
                   <Link
                     to="/"
-                    className="text-marronLight/80 hover:text-bejeAbobora transition-colors duration-300 font-MontserratRegular text-sm"
+                    className="text-marronLight/80 hover:text-bejeAbobora transition-colors duration-300 font-MontserratRegular text-sm font-semibold"
                   >
                     Página Inicial
                   </Link>
@@ -53,7 +53,7 @@ function Footer() {
                 <li>
                   <Link
                     to="/sobre"
-                    className="text-marronLight/80 hover:text-bejeAbobora transition-colors duration-300 font-MontserratRegular text-sm"
+                    className="text-marronLight/80 hover:text-bejeAbobora transition-colors duration-300 font-MontserratRegular text-sm font-semibold"
                   >
                     Sobre Mim
                   </Link>
@@ -61,7 +61,7 @@ function Footer() {
                 <li>
                   <Link
                     to="/servicos" 
-                    className="text-marronLight/80 hover:text-bejeAbobora transition-colors duration-300 font-MontserratRegular text-sm"
+                    className="text-marronLight/80 hover:text-bejeAbobora transition-colors duration-300 font-MontserratRegular text-sm font-semibold"
                   >
                     Portfólio
                   </Link>
