@@ -19,7 +19,7 @@ import j2 from "../assets/images/portifolio-imgs/j2.webp";
 import j3 from "../assets/images/portifolio-imgs/j3.webp";
 import j4 from "../assets/images/portifolio-imgs/j4.webp";
 import j5 from "../assets/images/portifolio-imgs/j5.webp";
-import j7 from "../assets/images/portifolio-imgs/j7.webp";
+import j11 from "../assets/images/portifolio-imgs/j11.webp";
 import j9 from "../assets/images/portifolio-imgs/j9.webp";
 import sobre2 from "../assets/images/sobre/sobre-2.webp";
 import p1 from "../assets/images/portifolio-imgs/p1.webp";
@@ -241,7 +241,7 @@ const Portfolio: React.FC = () => {
                   description: "Criação de identidade visual marcante e alinhada com os valores da marca."
                 },
                 {
-                  image: p5,
+                  image: p1,
                   title: "Storys Intencionais",
                   description: "Planejamento e criação de storys que geram conexão e engajamento com o público."
                 }
@@ -253,10 +253,10 @@ const Portfolio: React.FC = () => {
         {/* Personal Approach */}
         <PersonalApproach 
           images={{
-            profile: j7,
+            profile: j11,
             project1: p6,
             project2: j4,
-            project3: p1
+            project3: p8
           }} 
         />
 

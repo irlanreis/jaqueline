@@ -11,16 +11,11 @@ interface ProjectsGridProps {
   profileImage: string;
 }
 
-const ProjectsGrid: React.FC<ProjectsGridProps> = ({ projects, profileImage }) => {
+const ProjectsGrid: React.FC<ProjectsGridProps> = ({ projects }) => {
   return (
     <>
       <div className="flex justify-center mb-12">
-        <img
-          src={profileImage}
-          alt="Jaqueline Reis"
-          className="w-28 h-28 sm:w-36 sm:h-36 object-cover object-center rounded-full border-2 border-bejeAbobora"
-          loading="lazy"
-        />
+        <h2 className="text-3xl md:text-4xl font-spectral text-bejeAbobora">Últimos projetos</h2>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
         {projects.map((project, index) => (
