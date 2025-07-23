@@ -19,9 +19,9 @@ function SobreMimSimples() {
           </div>
           
           
-          <div className="md:w-7/12 mt-8 sm:mt-10 md:mt-0">
+          <div className="md:w-7/12 mt-8 sm:mt-10 md:mt-0 text-center">
             <div className="inline-block mb-2 xs:mb-3">
-              <span className="text-bejeAbobora font-SpectralRegular italic text-sm xs:text-base sm:text-base">— Sobre mim —</span>
+              <span className="text-bejeAbobora font-SpectralRegular italic text-base xs:text-base sm:text-base">— Sobre mim —</span>
             </div>
             
             <h2 className="font-SpectralRegular text-2xl xs:text-2xl sm:text-3xl text-marrondarck mb-4 sm:mb-5 md:mb-8">

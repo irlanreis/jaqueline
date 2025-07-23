@@ -15,6 +15,7 @@ export default {
         '8xl': '8192px', // 8k
         'mbl': { 'max': '639px' }, // Tamanho de tela para dispositivos móveis
         'lt': { 'max': '350px' },
+        'xs': { 'max': '480px' }, // Extra small devices (phones)
       },
 
       fontFamily: {

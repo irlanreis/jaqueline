@@ -17,7 +17,7 @@ function MissaoMarca() {
 
         <div className="flex flex-col md:flex-row items-center gap-6 xs:gap-8 sm:gap-10 md:gap-12 lg:gap-16">
           <div className="md:w-5/12">
-            <div className="prose prose-lg text-marronLight/90 max-w-none">
+            <div className="prose prose-lg text-marronLight/90 max-w-none mbl:text-center">
               <p className="text-base xs:text-base sm:text-lg leading-relaxed mb-3 sm:mb-4 md:mb-6 font-MontserratRegular">
                 Acreditamos que crescer no digital pode — e deve — ser leve, humano e intencional.
               </p>
