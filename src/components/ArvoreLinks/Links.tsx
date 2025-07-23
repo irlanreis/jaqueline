@@ -1,6 +1,7 @@
 import "./links.css";
 import perfil from "./imgs/perfil.png";
 import { Helmet } from "react-helmet-async";
+import Header from "../Home-page/Header";
 
 const Links: React.FC = () => {
   const dataImages = [
@@ -33,6 +34,7 @@ const Links: React.FC = () => {
         <title>Links | Jaqueline Reis</title>
         <meta name="description" content="Links para serviços de marketing digital, design e gestão de redes sociais da Jaqueline Reis." />
       </Helmet>
+      <Header />
       <div className="profile">
         <img src={perfil} alt="Reis Marketing" className="profile-picture" />
         <p className="text-header">

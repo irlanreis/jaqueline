@@ -32,15 +32,15 @@ const Urgency = () => {
               <p className="font-MontserratRegular text-bejeLigth 
                 text-base sm:text-lg md:text-xl 
                 font-bold">
-                Preço promocional válido apenas hoje!
+                Oportunidade única!
               </p>
             </div>
             <p className="font-MontserratRegular text-beje 
               text-sm sm:text-base md:text-lg 
               max-w-xs sm:max-w-lg md:max-w-xl 
               mx-auto">
-              O Pack Feed Brilhante está com <strong className="text-white">50% de desconto</strong> apenas nas próximas horas. 
-              Depois dessa oferta, o valor volta ao preço normal de R$ 197,00.
+              O Pack Feed Brilhante está com <strong className="text-white">o preço de Lançamento</strong> apenas nos próximos dias. 
+              Depois dessa oferta, o valor volta ao preço normal de R$ 97,00.
             </p>
           </div>
 

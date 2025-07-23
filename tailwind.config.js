@@ -25,12 +25,12 @@ export default {
 
       backgroundImage: {
         'offWhite': "url('/src/assets/images/background.svg')",
-        'jaqueSorriso': "url('/src/assets/images/background-mobile.svg')",
+        'jaqueSorriso': "url('/src/assets/images/background-mobile.webp')",
         'pricePack': "url('/src/assets/images/landing-page/10.png')",
-        'lg-bg-start': "url('/src/assets/images/landing-page/lg-bg-start.jpg')",
-        'lg-bg-mid': "url('/src/assets/images/landing-page/lg-bg-mid.jpg')",
-        'lg-bg-end': "url('/src/assets/images/landing-page/lg-bg-end.jpg')",
-        'lg-bg-clean': "url('/src/assets/images/landing-page/lg-bg-clean.jpg')",
+        'lg-bg-start': "url('/src/assets/images/landing-page/lg-bg-start.webp')",
+        'lg-bg-mid': "url('/src/assets/images/landing-page/lg-bg-mid.webp')",
+        'lg-bg-end': "url('/src/assets/images/landing-page/lg-bg-end.webp')",
+        'lg-bg-clean': "url('/src/assets/images/landing-page/lg-bg-clean.webp')",
       },
 
       colors: {
@@ -40,6 +40,18 @@ export default {
         'bejeClaro': '#FFDEAB',
         'beje': '#CCC7BC',
         'bejeLigth': '#F1F1F1',
+      },
+      
+      animation: {
+        'fadeIn': 'fadeIn 0.5s ease-in-out',
+        'bounce-slow': 'bounce 3s linear infinite',
+      },
+      
+      keyframes: {
+        fadeIn: {
+          '0%': { opacity: '0', transform: 'translateY(-10px)' },
+          '100%': { opacity: '1', transform: 'translateY(0)' },
+        }
       },
 
       height: {

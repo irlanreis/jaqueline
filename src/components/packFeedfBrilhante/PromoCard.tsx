@@ -5,8 +5,8 @@ const PromoCard = () => {
         <div className="font-MontserratRegular flex flex-col justify-between gap-4 sm:gap-6 md:gap-8">
           <section className="text-center">
             <p className="text-gray-500 text-xl sm:text-2xl line-through">De: R$ 97,00</p>
-            <p className="text-3xl sm:text-4xl md:text-5xl font-bold text-green-600 mt-1 sm:mt-2">R$ 57,00</p>
-            <p className="text-xs sm:text-sm text-gray-500 mt-1">ou 8x de 5,57</p>
+            <p className="text-3xl sm:text-4xl md:text-5xl font-bold text-green-600 mt-1 sm:mt-2">R$ 47,00</p>
+            <p className="text-xs sm:text-sm text-gray-500 mt-1">ou 11x de 5,22</p>
           </section>
           <div className="mt-2 text-left text-marronLight">
             <ul className="list-disc pl-6 font-semibold space-y-3 sm:space-y-4 text-base sm:text-lg">

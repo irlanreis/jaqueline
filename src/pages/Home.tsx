@@ -1,26 +1,25 @@
-import Destaques from "../components/Home-page/Destaques";
-import Feedbacks from "../components/Home-page/Feedbacks";
 import Header from "../components/Home-page/Header";
-import PageInitial from "../components/Home-page/PageInitial";
-import SectionGrid from "../components/Home-page/SectionGrid";
-import Footer from "../components/packFeedfBrilhante/Footer";
-import { Helmet } from "react-helmet-async";
+import HeroSection from "../components/Home-page/HeroSection";
+import TitleDinamic from "../components/Home-page/TitleDinamic";
+import SobreMimSimples from "../components/Home-page/SobreMimSimples";
+import MissaoMarca from "../components/Home-page/MissaoMarca";
+import ReisMarketing from "../components/Home-page/ReisMarketing";
+import ConviteExplorar from "../components/Home-page/ConviteExplorar";
+import Footer from "../components/Home-page/Footer";
 
 function Home() {
   return (
     <>
-      <Helmet>
-        <title>Jaqueline Reis | Marketing Digital</title>
-        <meta
-          name="description"
-          content="Jaqueline Reis - Especialista em Marketing Digital e Estratégias de Conteúdo para Empreendedoras."
-        />
-      </Helmet>
+      <TitleDinamic
+        title="Jaqueline Reis | Marketing Digital"
+        description="Jaqueline Reis - Especialista em Marketing Digital e Estratégias de Conteúdo para Empreendedoras."
+      />
       <Header />
-      <PageInitial />
-      <Destaques />
-      <SectionGrid />
-      <Feedbacks />
+      <HeroSection />
+      <SobreMimSimples />
+      <MissaoMarca />
+      <ReisMarketing />
+      <ConviteExplorar />
       <Footer />
     </>
   );

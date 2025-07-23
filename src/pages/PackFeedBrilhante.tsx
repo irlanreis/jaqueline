@@ -5,15 +5,17 @@ import Initial from "../components/packFeedfBrilhante/Initial";
 import Offer from "../components/packFeedfBrilhante/Offer";
 import Testimonials from "../components/packFeedfBrilhante/Testimonials";
 import Urgency from "../components/packFeedfBrilhante/Urgency";
-import { Helmet } from "react-helmet-async";
+import Header from "../components/Home-page/Header";
+import TitleDinamic from "../components/Home-page/TitleDinamic";
 
 const PackFeedBrilhante = () => {
   return (
     <>
-      <Helmet>
-        <title>Pack Feed Brilhante | Templates para Instagram</title>
-        <meta name="description" content="Pack Feed Brilhante - 100 Carrosséis e 50 Posts com Scripts prontos para transformar seu Instagram e aumentar suas vendas." />
-      </Helmet>
+      <TitleDinamic
+        title="Pack Feed Brilhante | Templates para Instagram"
+        description="Pack Feed Brilhante - 100 Carrosséis e 50 Posts com Scripts prontos para transformar seu Instagram e aumentar suas vendas."
+      />
+      <Header />
       <Initial />
       <Content />
       <Offer />

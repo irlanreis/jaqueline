@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 
 const Initial = () => {
-
   const [background, setBackground] = useState("");
 
   useEffect(() => {
@@ -21,11 +20,13 @@ const Initial = () => {
     window.addEventListener("resize", updateBackground);
     updateBackground();
 
-    return () => window.removeEventListener('resize', updateBackground);
+    return () => window.removeEventListener("resize", updateBackground);
   }, []);
 
   return (
-    <div className={`min-h-[100vh] bg-cover bg-no-repeat bg-center ${background}`}>
+    <div
+      className={`min-h-[100vh] bg-cover bg-no-repeat bg-top ${background}`}
+    >
       <div className="flex items-end justify-self-stretch min-h-[100vh] w-full">
         <div
           className="flex flex-col items-center justify-center h-full w-full px-4 py-10 space-y-8
@@ -48,7 +49,8 @@ const Initial = () => {
             xl:text-8xl xl:max-w-3xl
             2xl:text-8xl 2xl:max-w-4xl"
           >
-            Pack Feed <strong className="font-bold text-white">Brilhante</strong>
+            Pack Feed{" "}
+            <strong className="font-bold text-white">Brilhante</strong>
           </h1>
 
           {/* Subtítulo - H2 */}
@@ -83,8 +85,8 @@ const Initial = () => {
           </p>
 
           {/* Botão CTA */}
-          <a 
-            href="https://pay.kiwify.com.br/1Tag7Ep" 
+          <a
+            href="https://pay.kiwify.com.br/1Tag7Ep"
             target="_blank"
             className="w-full max-w-sm mx-auto mt-4"
           >

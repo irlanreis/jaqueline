@@ -17,10 +17,6 @@ const navLinks: NavLink[] = [
     link: "/sobre"
   },
   {
-    title: "Serviços",
-    link: "/servicos"
-  },
-  {
     title: "Portfólio",
     link: "/portfolio"
   },
