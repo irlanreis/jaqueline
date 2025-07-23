@@ -11,7 +11,7 @@ function SobreMimSimples() {
               <img
                 src={sobre2}
                 alt="Jaqueline Reis - Especialista em Marketing Digital"
-                className="w-full max-w-[230px] xs:max-w-[260px] sm:max-w-md lg:max-w-lg mx-auto transition-all duration-500 bg-bejeAbobora/10 hover:bg-bejeAbobora/20 rounded-lg shadow-lg"
+                className="w-full max-w-[430px] xs:max-w-[360px] sm:max-w-md lg:max-w-lg mx-auto transition-all duration-500 bg-bejeAbobora/10 hover:bg-bejeAbobora/20 rounded-lg shadow-lg"
                 loading="lazy"
               />
               <div className="absolute -right-2 xs:-right-3 -bottom-2 xs:-bottom-3 w-12 xs:w-16 sm:w-20 md:w-24 h-12 xs:h-16 sm:h-20 md:h-24 border-b-2 border-r-2 border-bejeAbobora/60"></div>
@@ -21,16 +21,16 @@ function SobreMimSimples() {
           
           <div className="md:w-7/12 mt-8 sm:mt-10 md:mt-0">
             <div className="inline-block mb-2 xs:mb-3">
-              <span className="text-bejeAbobora font-SpectralRegular italic text-xs xs:text-sm sm:text-base">— Sobre mim —</span>
+              <span className="text-bejeAbobora font-SpectralRegular italic text-sm xs:text-base sm:text-base">— Sobre mim —</span>
             </div>
             
-            <h2 className="font-SpectralRegular text-xl xs:text-2xl sm:text-3xl text-marrondarck mb-4 sm:mb-5 md:mb-8">
+            <h2 className="font-SpectralRegular text-2xl xs:text-2xl sm:text-3xl text-marrondarck mb-4 sm:mb-5 md:mb-8">
               Prazer, Jaqueline
             </h2>
             
             <div className="w-12 xs:w-16 h-px bg-bejeAbobora mb-4 sm:mb-6 md:mb-8"></div>
             
-            <div className="space-y-3 xs:space-y-4 sm:space-y-5 text-marronLight/90 font-MontserratRegular text-sm xs:text-base sm:text-lg">
+            <div className="space-y-3 xs:space-y-4 sm:space-y-5 text-marronLight/90 font-MontserratRegular text-base xs:text-base sm:text-lg">
               <p className="leading-relaxed">
                 Sou uma mulher movida por fé, criatividade e o desejo de ver pessoas florescendo 
                 no digital — e fora dele também.
@@ -47,16 +47,16 @@ function SobreMimSimples() {
               </p>
               
               <div className="pt-5 xs:pt-6 sm:pt-8 md:pt-10 flex flex-wrap gap-3 xs:gap-4 sm:gap-6 mt-1 sm:mt-2">
-                <span className="text-marrondarck border-b border-bejeAbobora text-xs sm:text-sm uppercase tracking-wider font-MontserratRegular">
+                <span className="text-marrondarck border-b border-bejeAbobora text-sm sm:text-sm uppercase tracking-wider font-MontserratRegular">
                   Estratégia Digital
                 </span>
-                <span className="text-marrondarck border-b border-bejeAbobora text-xs sm:text-sm uppercase tracking-wider font-MontserratRegular">
+                <span className="text-marrondarck border-b border-bejeAbobora text-sm sm:text-sm uppercase tracking-wider font-MontserratRegular">
                   Social Media
                 </span>
-                <span className="text-marrondarck border-b border-bejeAbobora text-xs sm:text-sm uppercase tracking-wider font-MontserratRegular">
+                <span className="text-marrondarck border-b border-bejeAbobora text-sm sm:text-sm uppercase tracking-wider font-MontserratRegular">
                   Mentoria
                 </span>
-                <span className="text-marrondarck border-b border-bejeAbobora text-xs sm:text-sm uppercase tracking-wider font-MontserratRegular">
+                <span className="text-marrondarck border-b border-bejeAbobora text-sm sm:text-sm uppercase tracking-wider font-MontserratRegular">
                   Produção de Conteúdo
                 </span>
               </div>

@@ -15,7 +15,7 @@ function Footer() {
               <h3 className="font-SpectralRegular text-xl text-marrondarck mb-5">
                 Jaqueline <span className="text-bejeAbobora">Reis</span>
               </h3>
-              <p className="text-marronLight/80 font-MontserratRegular text-sm leading-relaxed mb-6">
+              <p className="text-marronLight/80 font-MontserratRegular text-base leading-relaxed mb-6">
                 Estrategista e mentora de comunicação com propósito. Transformando histórias em conexões que importam.
               </p>
               <div className="flex space-x-4">
@@ -46,7 +46,7 @@ function Footer() {
                 <li>
                   <Link
                     to="/"
-                    className="text-marronLight/80 hover:text-bejeAbobora transition-colors duration-300 font-MontserratRegular text-sm font-semibold"
+                    className="text-marronLight/80 hover:text-bejeAbobora transition-colors duration-300 font-MontserratRegular text-base font-semibold"
                     onClick={scrollToTop}
                   >
                     Página Inicial
@@ -55,7 +55,7 @@ function Footer() {
                 <li>
                   <Link
                     to="/sobre"
-                    className="text-marronLight/80 hover:text-bejeAbobora transition-colors duration-300 font-MontserratRegular text-sm font-semibold"
+                    className="text-marronLight/80 hover:text-bejeAbobora transition-colors duration-300 font-MontserratRegular text-base font-semibold"
                     onClick={scrollToTop}
                   >
                     Sobre Mim
@@ -64,7 +64,7 @@ function Footer() {
                 <li>
                   <Link
                     to="/servicos" 
-                    className="text-marronLight/80 hover:text-bejeAbobora transition-colors duration-300 font-MontserratRegular text-sm font-semibold"
+                    className="text-marronLight/80 hover:text-bejeAbobora transition-colors duration-300 font-MontserratRegular text-base font-semibold"
                     onClick={scrollToTop}
                   >
                     Portfólio
@@ -78,19 +78,19 @@ function Footer() {
               <div className="space-y-3">
                 <a 
                   href="mailto:reismarketing.rr@gmail.com" 
-                  className="flex items-center text-marronLight/80 hover:text-bejeAbobora transition-colors duration-300 font-MontserratRegular text-sm"
+                  className="flex items-center text-marronLight/80 hover:text-bejeAbobora transition-colors duration-300 font-MontserratRegular text-base"
                 >
-                  <Mail size={16} className="mr-2" />
+                  <Mail size={18} className="mr-2" />
                   reismarketing.rr@gmail.com
                 </a>
-                <p className="font-MontserratRegular text-sm text-marronLight/80">
+                <p className="font-MontserratRegular text-base text-marronLight/80">
                   Roraima, Brasil
                 </p>
                 <a 
                   href="https://reismarketing.com" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="inline-block text-bejeAbobora hover:text-bejeAbobora/80 transition-colors duration-300 font-MontserratRegular text-sm mt-2"
+                  className="inline-block text-bejeAbobora hover:text-bejeAbobora/80 transition-colors duration-300 font-MontserratRegular text-base mt-2"
                 >
                   Reis Marketing →
                 </a>
@@ -99,10 +99,10 @@ function Footer() {
           </div>
           
           <div className="border-t border-marrondarck/5 pt-8 flex flex-col md:flex-row justify-between items-center">
-            <p className="text-xs text-marronLight/60 font-MontserratRegular mb-4 md:mb-0">
+            <p className="text-sm text-marronLight/60 font-MontserratRegular mb-4 md:mb-0">
               &copy; {currentYear} Jaqueline Reis. Todos os direitos reservados.
             </p>
-            <p className="text-xs text-marronLight/60 font-MontserratRegular">
+            <p className="text-sm text-marronLight/60 font-MontserratRegular">
               Desenvolvido com ❤️ por <a href="https://reismarketing.com" target="_blank" rel="noopener noreferrer" className="text-bejeAbobora hover:text-bejeAbobora/80">Reis Marketing</a>
             </p>
           </div>

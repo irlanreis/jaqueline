@@ -44,7 +44,7 @@ function Header() {
                 navLinks.map((link, i) => (
                   <Link
                     key={i}
-                    className="text-bejeAbobora hover:text-bejeLigth transition-colors duration-300 px-3 py-2 text-sm font-MontserratRegular font-medium text-center"
+                    className="text-bejeAbobora hover:text-bejeLigth transition-colors duration-300 px-3 py-2 text-base font-MontserratRegular font-medium text-center"
                     to={link.link}
                     onClick={scrollToTop} >
                     {link.title}
@@ -101,7 +101,7 @@ function Header() {
           </nav>
           
           <div className="absolute bottom-10 text-center">
-            <p className="text-bejeLigth/60 text-sm font-MontserratRegular">
+            <p className="text-bejeLigth/60 text-base font-MontserratRegular">
               © 2025 Jaqueline Reis
             </p>
           </div>
