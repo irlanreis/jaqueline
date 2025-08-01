@@ -6,6 +6,7 @@ import { HelmetProvider } from "react-helmet-async";
 import Sobre from "./pages/Sobre";
 import Portfolio from "./pages/Portfolio";
 import Contato from "./pages/Contato";
+import Financas from "./pages/Financas";
 import { useScrollToTop } from "./hooks/useScrollToTop";
 import BackToTop from "./components/common/BackToTop";
 
@@ -21,6 +22,7 @@ function App() {
         <Route path="/links" element={ <Links/> } />
         <Route path="/sobre" element={ <Sobre/> } />
         <Route path="/portfolio" element={ <Portfolio/> } />
+        <Route path="/financas" element={ <Financas/> } />
         <Route path="/contato" element={ <Contato/> } />
       </Routes>
       

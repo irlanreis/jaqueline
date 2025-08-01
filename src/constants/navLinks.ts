@@ -21,6 +21,10 @@ const navLinks: NavLink[] = [
     link: "/portfolio"
   },
   {
+    title: "Finanças",
+    link: "/financas"
+  },
+  {
     title: "Contato",
     link: "/contato"
   },
